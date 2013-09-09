@@ -41,6 +41,26 @@ ol, ul 								{ list-style:none; padding:0; margin:0; }
 .container .offset-by-six           { padding-left: 720px; }
 .container .offset-by-seven         { padding-left: 840px; }
 
+/* Navigation
+========================================================*/
+.nav-bar {
+	position: relative;
+	border-top: 1px solid #dddddd;
+	padding-top: 7px;
+	margin: 20px 0;
+	font-family: 'Asap', sans-serif; font-weight:400; font-size:11px; color:#000;
+}
+.page-number {
+	text-align: center;
+}
+.toc {
+	text-transform: uppercase;
+	position: absolute;
+	text-align: left;
+}
+.prev {}
+.next {}
+
 /* Spreads
 ========================================================*/
 h1 { font-family: 'Great Vibes', cursive; font-weight:400; color:#674520; margin:20px 0; }
