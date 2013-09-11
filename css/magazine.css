@@ -11,6 +11,7 @@ ol.controls            				{ display:none; }
 ol, ul 								{ list-style:none; padding:0; margin:0; }
 .height-600							{ height: 600px; overflow: hidden; }
 a 									{ text-decoration: none; }
+p 									{ line-height: 1.3em; }
 
 /* Grid
 ========================================================*/
@@ -48,6 +49,8 @@ a 									{ text-decoration: none; }
 	padding-top: 20px!important;
 }
 .border-bottom {
+	padding-bottom: 10px!important;
+	margin-bottom: 10px!important;
 	border-bottom: 1px dotted #5e5a5a;
 }
 
@@ -87,6 +90,16 @@ a 									{ text-decoration: none; }
 h1 { font-family: 'Great Vibes', cursive; font-weight:400; color:#674520; margin:20px 0; }
 h2 { font-family: 'Abel', sans-serif; font-weight:400; }
 p { font-family: 'Asap', sans-serif; font-weight:400; font-size:13px; color:#555; }
+
+.spread-four h4, .spread-five h5, .spread-six h4, .spread-eight h3 {
+	font-family: 'Asap', sans-serif; font-weight:400; font-size:13px; color:#000;
+	text-transform: uppercase;
+	margin: 0;
+}
+.spread-four p, .spread-five p, .spread-six p, .spread-seven p, .spread-eight p {
+	margin: 0;
+	padding: 0 0 20px 0;
+}
 
 /* Spread 1 */
 .spread-one { background-image: url('../images/spread-one_bg.jpg'); height:600px; }
@@ -200,16 +213,6 @@ p { font-family: 'Asap', sans-serif; font-weight:400; font-size:13px; color:#555
 	margin: 20px 0 0 0;
 	padding: 4px 0 3px 14px;
 	text-transform: uppercase;
-}
-
-.spread-four h4, .spread-five h5, .spread-six h4 {
-	font-family: 'Asap', sans-serif; font-weight:400; font-size:13px; color:#000;
-	text-transform: uppercase;
-	margin: 0;
-}
-.spread-four p, .spread-five p, .spread-six p, .spread-seven p {
-	margin: 0;
-	padding: 0 0 20px 0;
 }
 .contact-info {
 	font-style: italic;
@@ -410,6 +413,26 @@ p { font-family: 'Asap', sans-serif; font-weight:400; font-size:13px; color:#555
     z-index: 99;
 }
 /* Spread 8 */
+.spread-eight h3 {}
+.my-sweet-life {
+	background: url('../images/my-sweet-life-bg.jpg');
+	height: 600px;
+}
+.my-sweet-life h1 {
+	text-align: center;
+	font-size: 70px;
+	margin-top: 90%;
+}
+.my-sweet-life h2 {
+	font-size: 18px;
+	text-align: center;
+	color: #674520;
+	padding: 0 50px;
+}
+.meet-phillipe p {
+	font-family: 'Abel', sans-serif; font-weight:400; font-size:18px; color:#555;
+	margin: 0;
+}
 /* Spread 9 */
 /* Spread 10 */
 /* Spread 11 */
