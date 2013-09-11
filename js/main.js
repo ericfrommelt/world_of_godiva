@@ -1,29 +1,26 @@
+$(document).ready(function(){
+//Fun Facts hover
+     $(".fun-fact").on("mouseenter", function() {
+       $(this).find(".fun-fact-info").animate({"top": "-196px"}, "fast");
+       $(".fun-fact-badge img").animate({"opacity": "0"}, "fast");
+     });
+     $(".fun-fact").on("mouseleave", function() {
+      $(this).find(".fun-fact-info").animate({"top": "-40px"}, "fast");
+      $(".fun-fact-badge img").animate({"opacity": "0"}, "fast");
+     });
 
-
-   $(document).ready(function(){
-
-      //Slider
-      var sudoSlider = $("#slider").sudoSlider({
-         numeric: true,
-         customLink:'a.customLink',
-         prevNext:true,
-         beforeAnimation: function(slide){
-            $('div.descrip-text #anistate').text('Animating to slide ' + slide).show(600);
-         },
-         afterAnimation: function(slide){
-            $('div.descrip-text #anistate').hide(400);
-            $('div.descrip-text #slidenumber').text(slide);
-            //var text = $(this).children().attr('src');
-            //$('div.descrip-text #slidehtml').text(text);
-         },
-         initCallback: function() {
-            var slide = this.getValue("currentSlide");
-            $('div.descrip-text #slidenumber').text(slide);
-
-           // var text = this.getSlide(slide).children().attr('src');
-            //$('div.descrip-text #slidehtml').text(text);
-         }
+   //Godiva Landscapes image switcher
+     $(function(){
+      $(".landscape-nav").css( 'cursor', 'pointer' );
+      $(".landscape-nav li:eq(0)").nextAll().fadeTo("slow",0.5);
+      $(".godiva-landscapes li:eq(0)").nextAll().hide();
+      $(".landscape-nav li").click(function(e){
+      var index = $(this).index();
+      $(".godiva-landscapes li").eq(index).fadeTo("slow", 1.0).siblings().fadeTo("slow", 0);
+      $(".landscape-nav li").eq(index).fadeTo("slow", 1.0).siblings().fadeTo("slow", 0.5);
+      
       });
    });
+});
 
       

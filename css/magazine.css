@@ -61,6 +61,13 @@ ol, ul 								{ list-style:none; padding:0; margin:0; }
 .prev {}
 .next {}
 
+#controls {
+	text-indent: -9999px;
+}
+.prevBtn, .nextBtn {display:block;width:20px;height:77px;position:absolute;left:-20px;top:290px;z-index:1000;background:url(../images/btn_prev.gif) no-repeat 0 0;cursor:pointer;}	
+.nextBtn{left:940px;}														
+.nextBtn {background:url(../images/btn_next.gif) no-repeat 0 0;}
+
 /* Spreads
 ========================================================*/
 h1 { font-family: 'Great Vibes', cursive; font-weight:400; color:#674520; margin:20px 0; }
