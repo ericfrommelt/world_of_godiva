@@ -96,7 +96,7 @@ p { font-family: 'Asap', sans-serif; font-weight:400; font-size:13px; color:#555
 	text-transform: uppercase;
 	margin: 0;
 }
-.spread-four p, .spread-five p, .spread-six p, .spread-seven p, .spread-eight p {
+.spread-four p, .spread-five p, .spread-six p, .spread-seven p, .spread-eight p, .spread-eleven p {
 	margin: 0;
 	padding: 0 0 20px 0;
 }
@@ -491,6 +491,16 @@ p { font-family: 'Asap', sans-serif; font-weight:400; font-size:13px; color:#555
 	color: #674520;
 }
 /* Spread 11 */
+.spread-eleven h3 {
+	font-family: 'Abel', sans-serif; font-weight:400;
+	font-size: 18px;
+	color: #674520;
+	margin-bottom: 0;
+}
+.spread-eleven-column-two p {
+	margin-top: 43px;
+	padding-right: 2px;
+}
 /* Spread 12 */
 /* Spread 13 */
 /* Spread 14 */
