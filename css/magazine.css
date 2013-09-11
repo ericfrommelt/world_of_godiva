@@ -96,7 +96,7 @@ p { font-family: 'Asap', sans-serif; font-weight:400; font-size:13px; color:#555
 	text-transform: uppercase;
 	margin: 0;
 }
-.spread-four p, .spread-five p, .spread-six p, .spread-seven p, .spread-eight p, .spread-eleven p {
+.spread-four p, .spread-five p, .spread-six p, .spread-seven p, .spread-eight p, .spread-eleven p, .spread-twelve p {
 	margin: 0;
 	padding: 0 0 20px 0;
 }
@@ -156,14 +156,14 @@ p { font-family: 'Asap', sans-serif; font-weight:400; font-size:13px; color:#555
 	font-style: italic;
 }
 /* Spread 3 */
-.spread-three h1 { font-size:90px; text-align:center; margin-bottom:0!important; }
+.spread-three h1 { font-size:90px; text-align:center; margin:0!important; }
 .spread-three li { text-align:center; width:220px!important; }
 .spread-three div { text-align:center; }
 .spread-three ol li {
-	height: 118px;
+	height: 114px;
 }
 .toc-num { font-family: 'Asap', sans-serif; font-weight:400; font-size:18px; color:#555; position:relative; display:block; }
-.toc-break { width:20px; height: 6px; background-color: #e1dad2; display: block; position: relative; text-align: center; margin: 3px auto 6px auto; }
+.toc-break { width:20px; height: 6px; background-color: #e1dad2; display: block; position: relative; text-align: center; margin: 3px auto 3px auto; }
 .toc-title { font-family: 'Abel', sans-serif; font-weight:400; font-size:24px; color:#555; position:relative; display:block; }
 .toc-desc { font-family: 'Asap', sans-serif; font-weight:400; font-size:13px; color:#555; position:relative; display:block; line-height: 1.4em; padding: 0 15px; }
 .toc-column-a, .toc-column-b { border-right: 1px dotted #5e5a5a; margin: 20px 0; text-align: center;}
@@ -192,7 +192,7 @@ p { font-family: 'Asap', sans-serif; font-weight:400; font-size:13px; color:#555
 .spread-four-intro {
 	background: #FFF;
 	margin: 0 10px;
-	padding: 20px 20px 15px 20px;
+	padding: 20px 20px 5px 20px;
 	overflow: visible;
 	position: relative;
 }
@@ -249,7 +249,7 @@ p { font-family: 'Asap', sans-serif; font-weight:400; font-size:13px; color:#555
 	border-bottom: 5px solid #c7b29a;
 	display: block;
 	text-transform: uppercase;
-	margin: 0;
+	margin: 0 0 10px 0;
 }
 .spread-five-column-one img {
 	position: relative;
@@ -287,7 +287,7 @@ p { font-family: 'Asap', sans-serif; font-weight:400; font-size:13px; color:#555
 	width: 227px!important;
 	height: 196px;
 	overflow: hidden;
-	margin-bottom: 10px;
+	margin-bottom: 7px;
 }
 .fun-fact-info {
 	height: 196px;
@@ -369,7 +369,7 @@ p { font-family: 'Asap', sans-serif; font-weight:400; font-size:13px; color:#555
 	margin: 0;
 	color: #555;
 }
-.employee-story { margin-bottom: 10px; }
+.employee-story { margin-bottom: 0; }
 .employee-story p {
 	padding-bottom: 20px;
 }
@@ -408,7 +408,7 @@ p { font-family: 'Asap', sans-serif; font-weight:400; font-size:13px; color:#555
     border-width: 6px 6px 0 6px;
     bottom: 20px;
     content: "";
-    left: 50%;
+    left: 55%;
     position: absolute;
     z-index: 99;
 }
@@ -502,6 +502,35 @@ p { font-family: 'Asap', sans-serif; font-weight:400; font-size:13px; color:#555
 	padding-right: 2px;
 }
 /* Spread 12 */
+.spread-twelve {
+	background: url('../images/spread-twelve-image.jpg');
+}
+.regal-dreams {
+	margin-left: 20px;
+	width: 224px;
+}
+.regal-dreams h3 {
+	font-family: 'Abel', sans-serif; font-weight:400;
+	font-size: 18px;
+	color: #FFF;
+	margin-bottom: 0;
+}
+.cherishing-love {
+	margin-top: 465px;
+	padding: 0 20px 0 20px;
+}
+.cherishing-love h3 {
+	font-family: 'Abel', sans-serif; font-weight:400;
+	font-size: 18px;
+	color: #674520;
+	margin-bottom: 0;
+}
+.regal-dreams p {
+	color: #FFF;
+}
+.cherishing-love p {
+	color: #000;
+}
 /* Spread 13 */
 /* Spread 14 */
 /* Spread 15 */
