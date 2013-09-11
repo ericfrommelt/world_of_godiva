@@ -10,6 +10,7 @@ font-family: 'Radley', serif;
 ol.controls            				{ display:none; }
 ol, ul 								{ list-style:none; padding:0; margin:0; }
 .height-600							{ height: 600px; overflow: hidden; }
+a 									{ text-decoration: none; }
 
 /* Grid
 ========================================================*/
@@ -40,6 +41,19 @@ ol, ul 								{ list-style:none; padding:0; margin:0; }
 .container .offset-by-five          { padding-left: 600px; }
 .container .offset-by-six           { padding-left: 720px; }
 .container .offset-by-seven         { padding-left: 840px; }
+
+/* Helper Classes
+========================================================*/
+.pad20top {
+	padding-top: 20px!important;
+}
+.border-bottom {
+	border-bottom: 1px dotted #5e5a5a;
+}
+
+.float-right {
+	float: right;
+}
 
 /* Navigation
 ========================================================*/
@@ -150,12 +164,6 @@ p { font-family: 'Asap', sans-serif; font-weight:400; font-size:13px; color:#555
 }
 .spread-four-column-four {
 	padding-right: 20px;
-}
-.pad20top {
-	padding-top: 20px!important;
-}
-.border-bottom {
-	border-bottom: 1px dotted #5e5a5a;
 }
 .spread-four h1 {
 	width: 195px;
@@ -311,6 +319,9 @@ p { font-family: 'Asap', sans-serif; font-weight:400; font-size:13px; color:#555
 	background: url('../images/spread-seven-bg.jpg');
 	padding: 0 20px;
 }
+.spread-seven-intro a {
+	color: #eab94a;
+}
 .spread-seven h1 {
 	font-size: 70px;
 	color: #FFF;
@@ -340,6 +351,63 @@ p { font-family: 'Asap', sans-serif; font-weight:400; font-size:13px; color:#555
 	width: 20px!important;
 	height: 20px;
 	float: left;
+}
+.employee-stories img { 
+	float: left; 
+	padding-right: 12px; 
+}
+.employee-stories li:nth-child(even) img {
+	float: right;
+	padding-right: 0;
+	padding-left: 12px;
+}
+.employee-stories h3 {
+	font-family: 'Asap', sans-serif; font-weight:700; font-size:13px; color:#000;
+	margin: 0;
+	color: #555;
+}
+.employee-story { margin-bottom: 10px; }
+.employee-story p {
+	padding-bottom: 20px;
+}
+.employee-info { font-weight: 400; text-transform: uppercase; }
+.explore-godiva {
+	border-top: 1px solid #DDD;
+}
+.explore-godiva h3 {
+	font-family: 'Abel', sans-serif; font-weight:400; font-size:18px; color:#555;
+	margin: 0;
+}
+.tooltip-header {
+	font-weight: 700;
+}
+.tooltip{
+    display: inline;
+    position: relative;
+}
+.tooltip:hover:after{
+    background: #FFF;
+    bottom: 26px;
+    color: #555;
+    content: attr(title);
+    left: 20%;
+    padding: 5px 5px;
+    position: absolute;
+    z-index: 98;
+    width: 120px;
+    -moz-box-shadow:    0 3px 5px 5px rgba(0,0,0,0.5);
+  	-webkit-box-shadow: 0 3px 5px 5px rgba(0,0,0,0.5);
+  	box-shadow:         0 3px 5px 5px rgba(0,0,0,0.5);
+}
+.tooltip:hover:before{
+    border: solid;
+    border-color: #FFF transparent;
+    border-width: 6px 6px 0 6px;
+    bottom: 20px;
+    content: "";
+    left: 50%;
+    position: absolute;
+    z-index: 99;
 }
 /* Spread 8 */
 /* Spread 9 */
