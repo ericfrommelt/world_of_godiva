@@ -28,16 +28,16 @@
                 //Intercept the link's default behavior
                 e.preventDefault();
                 //Create a container
-                var container = $('<div/>');
+                var container = $('<div class="flowbox"/>');
                 //install flowplayer
                 container.flowplayer('http://releases.flowplayer.org/swf/flowplayer-3.2.16.swf', $(this).attr('href'));
                 //Launch fancybox with the flowplayer as content
                 //Be sure to set dimensions and disable autoDimensions & scrolling
                 $.fancybox({
                     content: container,
-                    width: 600, height: 400,
                     scrolling: 'no',
-                    autoDimensions: false,
+                    'autoSize': false,      
+                    'width': 900
                 });
             });
          });
