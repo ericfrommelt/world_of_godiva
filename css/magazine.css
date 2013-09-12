@@ -10,7 +10,7 @@ font-family: 'Radley', serif;
 ol.controls            				{ display:none; }
 ol, ul 								{ list-style:none; padding:0; margin:0; }
 .height-600							{ height: 600px; overflow: hidden; }
-a 									{ text-decoration: none; }
+a 									{ text-decoration: none; font-weight: 700; }
 p 									{ line-height: 1.3em; }
 
 /* Grid
@@ -52,6 +52,7 @@ p 									{ line-height: 1.3em; }
 	padding-bottom: 10px!important;
 	margin-bottom: 10px!important;
 	border-bottom: 1px dotted #5e5a5a;
+	width:99.5%;
 }
 
 .float-right {
@@ -74,6 +75,10 @@ p 									{ line-height: 1.3em; }
 	text-transform: uppercase;
 	position: absolute;
 	text-align: left;
+}
+.toc a {
+	font-weight: 400;
+	color: #000;
 }
 .prev {}
 .next {}
@@ -173,7 +178,7 @@ p { font-family: 'Asap', sans-serif; font-weight:400; font-size:13px; color:#555
 .width-100p { width: 100%!important; }
 .spread-four-column-one, .spread-four-column-two, .spread-four-column-three {
 	border-right: 1px dotted #5e5a5a;
-	padding-right: 10px;
+	padding-right: 20px;
 }
 .spread-four-column-four {
 	padding-right: 20px;
@@ -183,10 +188,12 @@ p { font-family: 'Asap', sans-serif; font-weight:400; font-size:13px; color:#555
 	height: 175px;
 	background: url('../images/spread-four-badge.png') no-repeat 22px;
 	text-indent: -9999px;
+	margin: 0;
 }
 .spread-four h2 {
 	padding-left: 22px;
 	font-family: 'Abel', sans-serif; font-weight:400; font-size:18px; color:#674520;
+	margin-top: 0;
 }
 
 .spread-four-intro {
@@ -226,14 +233,25 @@ p { font-family: 'Asap', sans-serif; font-weight:400; font-size:13px; color:#555
 .spread-five {
 	background: url('../images/spread-five-bg.gif');
 }
+.spread-five-column-one p, .spread-five-column-one h5 {
+	padding-left: 10px;
+}
 .spread-five-column-one, .spread-five-column-two {
 	border-right: 1px dotted #5e5a5a;
+	padding-right: 20px;
+}
+
+.spread-five-column-two {
+	padding-left: 10px;
+}
+.spread-five-column-three {
 	padding-right: 10px;
 }
 
 .spread-five-column-four {
 	border-left: 1px dotted #5e5a5a;
-	padding-left: 10px;
+	padding-left: 20px;
+	padding-right: 20px;
 }
 .spread-five h3 {
 	background: url('../images/spread-five-flag-play.png') no-repeat;
@@ -250,6 +268,9 @@ p { font-family: 'Asap', sans-serif; font-weight:400; font-size:13px; color:#555
 	display: block;
 	text-transform: uppercase;
 	margin: 0 0 10px 0;
+}
+.spread-five-column-one h4 {
+	margin-left: 10px;
 }
 .spread-five-column-one img {
 	position: relative;
@@ -320,10 +341,11 @@ p { font-family: 'Asap', sans-serif; font-weight:400; font-size:13px; color:#555
 /* Spread 7 */
 .spread-seven-intro {
 	background: url('../images/spread-seven-bg.jpg');
-	padding: 0 20px;
+	padding: 0 10px 0 20px;
 }
 .spread-seven-intro a {
 	color: #eab94a;
+	font-weight: 700px!important;
 }
 .spread-seven h1 {
 	font-size: 70px;
@@ -347,8 +369,8 @@ p { font-family: 'Asap', sans-serif; font-weight:400; font-size:13px; color:#555
 .landscape-nav {
 	display: block;
 	position: absolute;
-	left: 50%;
-	top: 210px;
+	left: 44%;
+	top: 230px;
 }
 .landscape-nav li {
 	width: 20px!important;
@@ -432,6 +454,8 @@ p { font-family: 'Asap', sans-serif; font-weight:400; font-size:13px; color:#555
 .meet-phillipe p {
 	font-family: 'Abel', sans-serif; font-weight:400; font-size:18px; color:#555;
 	margin: 0;
+	border-top: 1px solid #DDD;
+	padding-top: 10px;
 }
 /* Spread 9 */
 .spread-nine {
