@@ -9,20 +9,21 @@
         <title>Godiva | A Grand Adventure</title>
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width">
-		<link href='http://fonts.googleapis.com/css?family=Abel|Great+Vibes|Radley:400,400italic|Asap:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
+        <link href='http://fonts.googleapis.com/css?family=Abel|Great+Vibes|Radley:400,400italic|Asap:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
         <link rel="stylesheet" href="css/normalize.min.css">
         <link rel="stylesheet" href="css/main.css">
-		<link rel="stylesheet" href="css/magazine.css">
+        <link rel="stylesheet" href="css/magazine.css">
         <script src="js/modernizr-2.6.2.min.js"></script>
         <script>window.jQuery || document.write('<script src="js/jquery-1.10.1.min.js"><\/script>')</script>
-		<script src="js/main.js"></script>
+        <script src="js/jquery.cycle.all.js"></script>
+        <script src="js/slider.js"></script>
     </head>
     <body>
         <!--[if lt IE 7]>
             <p class="chromeframe">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">activate Google Chrome Frame</a> to improve your experience.</p>
         <![endif]-->
-		<div class="container">
-			<section class="eight columns spread-seven alpha omega height-600">
+        <div class="container">
+            <section class="eight columns spread-seven alpha omega height-600">
                 <div class="five columns alpha">
                     <div class="spread-seven-intro">
                         <h1>Charming Landscapes</h1>
@@ -31,18 +32,15 @@
                         <p>GODIVA lovers, including VIP celebrity guests such as Asian starlets Angelababy and Pace Wu flock to its factory in Brussels, to witness the meticulous attention and innovative craftsmanship behind each piece of chocolate. With sophisticated skills and devoted passion, it’s no surprise that the average career length at the renowned <a title="GODIVA FACTORY Avenue de Jette 4, 1081 Brussels +32-2-422-1798" class="tooltip" href="#">GODIVA Factory</a> is a remarkable 15 years.</p>
                     </div>
                     <div class="godiva-landscapes">
-                        <ul>
-                            <li><img src="images/spread-seven-photo1.jpg"></li>
-                            <li><img src="images/spread-seven-photo2.jpg"></li>
-                            <li><img src="images/spread-seven-photo3.jpg"></li>
-                            <li><img src="images/spread-seven-photo4.jpg"></li>
+                        <ul id="nav">
+                            
                         </ul>
-                        <ul class="landscape-nav">
-                            <li><img src="images/nav-dot.png"></li>
-                            <li><img src="images/nav-dot.png"></li>
-                            <li><img src="images/nav-dot.png"></li>
-                            <li><img src="images/nav-dot.png"></li>
-                        </ul>
+                        <div id="slideshow" class="pics">
+                            <img src="images/spread-seven-photo1.jpg">
+                            <img src="images/spread-seven-photo2.jpg">
+                            <img src="images/spread-seven-photo3.jpg">
+                            <img src="images/spread-seven-photo4.jpg">
+                        </div>
                     </div>
                 </div>
                 <div class="three columns omega">
@@ -73,10 +71,10 @@
                 <a href="page-six.html" class="prevBtn">Previous</a>
                 <a href="page-eight.html" class="nextBtn">Next</a>
             </span>
-			<nav class="eight columns nav-bar alpha omega">
-				<span class="toc"><a href="page-three.html">Table of Contents</a></span>
-				<div class="page-number"><a href="page-six.html"><img class="prev" src="images/nav-arrow-prev.gif" alt="Previous page"></a> 7 of 20 <a href="page-eight.html"><img class="next" src="images/nav-arrow-next.gif" alt="Next page"></a></div>
-			</nav>
-		</div><!--//#container-->
+            <nav class="eight columns nav-bar alpha omega">
+                <span class="toc"><a href="page-three.html">Table of Contents</a></span>
+                <div class="page-number"><a href="page-six.html"><img class="prev" src="images/nav-arrow-prev.gif" alt="Previous page"></a> 7 of 20 <a href="page-eight.html"><img class="next" src="images/nav-arrow-next.gif" alt="Next page"></a></div>
+            </nav>
+        </div><!--//#container-->
     </body>
 </html>
