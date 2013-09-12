@@ -17,6 +17,34 @@
         <script>window.jQuery || document.write('<script src="js/jquery-1.10.1.min.js"><\/script>')</script>
         <script src="js/jquery.cycle.all.js"></script>
         <script src="js/slider.js"></script>
+        <link rel="stylesheet" href="fancybox/source/jquery.fancybox.css" type="text/css" media="screen" />
+        <script src="fancybox/source/jquery.fancybox.pack.js"></script>
+        <script src="flowplayer/flowplayer-3.2.12.min.js"></script>
+
+        <script>
+
+        $(document).ready(function() {
+             $('a.videoLink').click(function(e) {
+                //Intercept the link's default behavior
+                e.preventDefault();
+                //Create a container
+                var container = $('<div/>');
+                //install flowplayer
+                container.flowplayer('http://releases.flowplayer.org/swf/flowplayer-3.2.16.swf', $(this).attr('href'));
+                //Launch fancybox with the flowplayer as content
+                //Be sure to set dimensions and disable autoDimensions & scrolling
+                $.fancybox({
+                    content: container,
+                    width: 600, height: 400,
+                    scrolling: 'no',
+                    autoDimensions: false,
+                });
+            });
+         });
+        </script>
+
+
+
     </head>
     <body>
         <!--[if lt IE 7]>
@@ -63,7 +91,7 @@
                     </ul>
                     <div class="explore-godiva">
                         <h3>Explore GODIVA</h3>
-                        <img src="images/spread-seven-video-tn.jpg">
+                        <a href="http://www.godiva.com.hk/seasonal/angelababy-brussels-media-tour-2013/video/making.flv" class="videoLink"><img src="images/spread-seven-video-tn.jpg"></a>
                     </div>
                 </div>
             </section>
