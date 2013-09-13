@@ -9,17 +9,22 @@ $(document).ready(function(){
       $(".fun-fact-badge img").animate({"opacity": "0"}, "fast");
      });
 
-   //Godiva Landscapes image switcher
-     $(function(){
-      $(".landscape-nav").css( 'cursor', 'pointer' );
-      $(".landscape-nav li:eq(0)").nextAll().fadeTo("slow",0.5);
-      $(".godiva-landscapes li:eq(0)").nextAll().hide();
-      $(".landscape-nav li").click(function(e){
-      var index = $(this).index();
-      $(".godiva-landscapes li").eq(index).fadeTo("slow", 1.0).siblings().fadeTo("slow", 0);
-      $(".landscape-nav li").eq(index).fadeTo("slow", 1.0).siblings().fadeTo("slow", 0.5);
-      
-      });
+     //Video Overlay
+     $('a.videoLink').click(function(e) {
+       //Intercept the link's default behavior
+       e.preventDefault();
+       //Create a container
+       var container = $('<div class="flowbox"/>');
+       //install flowplayer
+       container.flowplayer('http://releases.flowplayer.org/swf/flowplayer-3.2.16.swf', $(this).attr('href'));
+       //Launch fancybox with the flowplayer as content
+       //Be sure to set dimensions and disable autoDimensions & scrolling
+       $.fancybox({
+           content: container,
+           scrolling: 'no',
+           'autoSize': false,      
+           'width': 900
+       });
    });
 });
 
