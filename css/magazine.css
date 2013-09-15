@@ -58,6 +58,9 @@ p 									{ line-height: 1.3em; }
 .float-right {
 	float: right;
 }
+.bold {
+	font-weight: 700;
+}
 
 /* Navigation
 ========================================================*/
@@ -853,7 +856,7 @@ a.slide0.activeSlide, a.slide1.activeSlide, a.slide2.activeSlide, a.slide3.activ
 	
 }
 .meet-the-draps p {
-	
+
 }
 .draps-slides {
 	position: relative;
@@ -890,6 +893,51 @@ a.slide0.activeSlide, a.slide1.activeSlide, a.slide2.activeSlide, a.slide3.activ
 	padding-right: 5px;
 }
 /* Spread 16 */
+.spread-sixteen {
+	background: url('../images/sp16-bg.jpg');
+	background-position: 0 0; 
+	background-repeat: no-repeat;
+}
+.spread-sixteen h1 {
+	font-size: 40px;
+	color: #FFF;
+	margin:40px 0 0 0;
+}
+.spread-sixteen h3 {
+	font-family: 'Abel', sans-serif; font-weight:400; font-size:18px; color:#FFF;
+	margin-bottom: 0;
+}
+.spread-sixteen p {
+	color: #FFF;
+	margin-top: 0;
+}
+#signature-content {
+	color: #FFF;
+	width: 250px;
+	margin: 480px 0 0 40px;
+}
+#signature-content h2 {
+	font-size: 13px;
+	text-transform: uppercase;
+	font-weight: 700;
+	margin: 0;
+}
+#signature-content p {
+	color: #FFF!important;
+	margin: 0;
+}
+.signature-0, .signature-1, .signature-2, .signature-3, .signature-4, .signature-5, .signature-6 {
+	display: none;
+}
+.map_image { display: block; position: relative; }
+	.map_image .map_link { display: block; position: absolute; text-indent: -999em; overflow: hidden; }
+	.map_image #map_link_0 { width: 71px; height: 74px; top: 5px; left: 261px; }
+	.map_image #map_link_1 { width: 104px; height: 88px; top: 74px; left: 128px; }
+	.map_image #map_link_2 { width: 114px; height: 129px; top: 260px; left: 61px; }
+	.map_image #map_link_3 { width: 109px; height: 121px; top: 192px; left: 270px; }
+	.map_image #map_link_4 { width: 82px; height: 88px; top: 179px; left: 424px; }
+	.map_image #map_link_5 { width: 91px; height: 98px; top: 306px; left: 467px; }
+	.map_image #map_link_6 { width: 161px; height: 182px; top: 414px; left: 360px; }
 /* Spread 17 */
 /* Spread 18 */
 /* Spread 19 */

@@ -30,7 +30,7 @@ $(document).ready(function(){
      //Embedded Video Player
       flowplayer("player", "http://releases.flowplayer.org/swf/flowplayer-3.2.16.swf", {
       clip: {
-          // these two configuration variables does the trick
+          // these two configuration variables do the trick
           autoPlay: true,
           autoBuffering: true // <- do not place a comma here
       }
