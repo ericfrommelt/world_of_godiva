@@ -26,6 +26,16 @@ $(document).ready(function(){
            'width': 900
        });
    });
+
+     //Embedded Video Player
+      flowplayer("player", "http://releases.flowplayer.org/swf/flowplayer-3.2.16.swf", {
+      clip: {
+          // these two configuration variables does the trick
+          autoPlay: true,
+          autoBuffering: true // <- do not place a comma here
+      }
+  });
+
 });
 
       

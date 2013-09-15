@@ -6,7 +6,7 @@ font-family: 'Radley', serif;
 
 
 .container             				{ position: relative; width: 940px; height:600px; margin: 0 auto; padding: 0; }
-#slider li             				{ width:940px; }
+
 ol.controls            				{ display:none; }
 ol, ul 								{ list-style:none; padding:0; margin:0; }
 .height-600							{ height: 600px; overflow: hidden; }
@@ -573,8 +573,322 @@ a.slide0.activeSlide, a.slide1.activeSlide, a.slide2.activeSlide, a.slide3.activ
 	color: #000;
 }
 /* Spread 13 */
+.divine-dining {
+	background: url('../images/spread-thirteen-divine-dining.jpg');
+	height: 300px;
+	margin-bottom: 10px;
+}
+.divine-dining h1 {
+	color: #FFF;
+	font-size: 100px;
+	text-align: center;
+	text-shadow: 0px 2px 5px rgba(0, 0, 0, 0.8);
+	margin: 130px 0 0 0;
+}
+.divine-dining h2 {
+	color: #FFF;
+	text-align: center;
+	margin-top: -34px;
+	font-size: 22px;
+	text-shadow: 0px 2px 5px rgba(0, 0, 0, 0.8);
+}
+.highlight-slides {
+	position: relative;
+}
+
+#slideshow2 {
+	width: 230px;
+}
+.dining-slide-bar {
+	background: rgba(0, 0, 0, 0.5);
+	display: block;
+	position: absolute;
+	height: 48px;
+	width: 230px;
+	z-index: 998;
+	bottom: 0;
+}
+.dining-slide figcaption {
+	font-family: 'Asap', sans-serif; font-weight:400; font-size:12px; color:#FFF;
+	font-style: italic;
+	text-align: center;
+	padding-top: 10px;
+}
+#nav2 {
+	position: absolute;
+	left: 36%;
+	top: 256px;
+	z-index: 999;
+}
+#nav2 a {
+	font-size: 2.5em; 
+	line-height: 0.75em; 
+	text-decoration:none; 
+	padding-right: 5px;
+}
+.spread-thirteen-sidebar {
+	background: url('../images/spread-thirteen-side-bg.jpg');
+	height: 600px;
+}
+.spread-thirteen-sidebar p {
+	color: #FFF;
+	padding: 0 20px;
+}
+.spread-thirteen-sidebar p:nth-child(1) {
+	padding-top: 10px;
+}
+.dinner-highlights aside {
+	font-family: 'Abel', sans-serif; font-weight:400; font-size:18px; color:#555;
+}
+.player {
+	margin: 0!important;
+}
+.highlights {
+	margin-top: -24px;
+}
 /* Spread 14 */
+.spread-fourteen h1 {
+	text-align: center;
+	margin: 0;
+	font-size: 45px;
+	color: #555;
+	line-height: 1.2em;
+}
+.spread-fourteen h2 {
+	font-family: 'Asap', sans-serif; font-weight:400; font-size:15px; color:#555;
+	text-transform: uppercase;
+	text-align: center;
+	margin: 5px 0 0 0;
+}
+.menu-small {
+	text-transform: none;
+	font-size: 12px;
+	line-height: 1em!important;
+}
+.spread-fourteen figcaption {
+	font-family: 'Asap', sans-serif; font-weight:400; font-size:12px; color:#555;
+	text-align: center;
+}
+.menu-row-one li, .menu-row-two li {
+	width: 220px;
+	height: 260px;
+	float: left;
+	padding: 0 9px;
+	border-right: 1px dotted #5e5a5a;
+}
+.menu-first-li {
+	padding-left: 0!important;
+}
+.menu-last-li {
+	padding-right: 0!important;
+}
+.menu-row-one {
+	padding-bottom: 10px;
+	border-bottom: 1px dotted #5e5a5a;
+}
+.menu-row-two {
+	margin-top: 10px;
+}
+.coffee h2 {
+	margin: 100px 0 10px 0;
+}
+
 /* Spread 15 */
+.spread-fifteen {
+	background: url('../images/sp15-paper-bg.jpg');
+}
+.spread-fifteen h1 {
+	font-size: 58px;
+	color: #000;
+	margin: 30px 0 0 30px;
+}
+.spread-fifteen h5 {
+	font-family: 'Great Vibes', cursive; font-weight:400; color:#000; margin:20px 0;
+	font-size: 30px;
+}
+.sp15-tells {
+	font-size: 28px;
+	position: absolute;
+}
+.sp15-a {
+	font-size: 28px;
+}
+.sp15-story {
+	font-size: 28px;
+	margin-left: -8px;
+}
+.spread-fifteen h2 {
+	font-size: 16px;
+	margin: 30px 0 0 0;
+}
+.sp15-header-left {
+	float: left;
+	width: 400px;
+}
+.sp15-header-right {
+	float: left;
+	width: 300px;
+}
+#truffe-collection {
+	background: url('../images/sp15-collection-bg.png') no-repeat;
+	margin: 0 0 0 15px;
+	padding: 10px 0 0 10px;
+	height: 280px;
+}
+#truffe-collection h3 {
+	text-align: center;
+	font-family: 'Abel', sans-serif; font-weight:400; font-size:16px; color:#555;
+	text-transform: uppercase;
+	margin:0;
+}
+#truffe-collection li {
+	text-align: center;
+	font-family: 'Asap', sans-serif; font-weight:400; font-size:11px; color:#555;
+	margin-top: 100px;
+}
+#truffe-collection a {
+	display: block;
+	height: 114px;
+	float: left;
+	background-repeat: no-repeat;
+}
+#truffe-collection h4, #truffe-collection p {
+	text-align: center;
+	margin: 0;
+}
+#truffe-collection h4 {
+	font-family: 'Asap', sans-serif; font-weight:400; font-size:13px; color:#555;
+	text-transform: uppercase;
+	margin: 0;
+	color: #000;
+}
+#truffe-collection p {
+	font-size: 13px;
+	color: #555;
+	padding: 0 65px 0 40px;
+}
+.roll {
+	text-transform: uppercase;
+	font-weight: 700;
+	font-size: 10px!important;
+	padding-top: 10px!important;
+}
+.truffe-1 {
+	width: 95px;
+	background: url('../images/sp15-truffle1.jpg');
+}
+.truffe-1:hover {
+	background-position: -95px 0px;
+}
+.truffe-1 li {
+	margin-left: -10px;
+}
+.truffe-2 {
+	width: 116px;
+	background: url('../images/sp15-truffle2.jpg');
+}
+.truffe-2:hover {
+	background-position: -116px 0px;
+}
+.truffe-2 li {
+	margin-left: -3px;
+}
+.truffe-3 {
+	width: 114px;
+	background: url('../images/sp15-truffle3.jpg');
+}
+.truffe-3:hover {
+	background-position: -114px 0px;
+}
+.truffe-3 li {
+	margin-left: -7px;
+}
+.truffe-4 {
+	width: 117px;
+	background: url('../images/sp15-truffle4.jpg');
+}
+.truffe-4:hover {
+	background-position: -117px 0px;
+}
+.truffe-4 li {
+	margin-left: -8px;
+}
+.truffe-5 {
+	width: 105px;
+	background: url('../images/sp15-truffle5.jpg');
+}
+.truffe-5:hover {
+	background-position: -105px 0px;
+}
+.truffe-6 {
+	width: 92px;
+	background: url('../images/sp15-truffle6.jpg');
+}
+.truffe-6:hover {
+	background-position: -92px 0px;
+}
+.truffe-6 li {
+	margin-left: 10px;
+}
+.truffe-line {
+	position: relative;
+	top: -33px;
+}
+#truffe-one, #truffe-two, #truffe-three, #truffe-four, #truffe-five, #truffe-six {
+	display: none;
+}
+.shop-now {
+	position: absolute;
+	left: 330px;
+	margin-top: 5px;
+}
+.truffeology-a p {
+	padding-left: 20px;
+}
+.truffeology-b p {
+	padding-left: 10px;
+	padding-right: 20px;
+}
+.sp15-left-column {
+	
+}
+.meet-the-draps p {
+	
+}
+.draps-slides {
+	position: relative;
+}
+
+#slideshow3 {
+	width: 230px;
+}
+.draps-slide-bar {
+	background: rgba(0, 0, 0, 0.5);
+	display: block;
+	position: absolute;
+	height: 48px;
+	width: 220px;
+	z-index: 998;
+	bottom: 0;
+}
+.draps-slide figcaption {
+	font-family: 'Asap', sans-serif; font-weight:400; font-size:12px; color:#FFF;
+	font-style: italic;
+	text-align: center;
+	padding-top: 10px;
+}
+#nav3 {
+	position: absolute;
+	left: 31%;
+	top: 236px;
+	z-index: 999;
+}
+#nav3 a {
+	font-size: 2.5em; 
+	line-height: 0.75em; 
+	text-decoration:none; 
+	padding-right: 5px;
+}
 /* Spread 16 */
 /* Spread 17 */
 /* Spread 18 */
