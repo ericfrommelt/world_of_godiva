@@ -10,7 +10,7 @@ font-family: 'Radley', serif;
 ol.controls            				{ display:none; }
 ol, ul 								{ list-style:none; padding:0; margin:0; }
 .height-600							{ height: 600px; overflow: hidden; }
-a 									{ text-decoration: none; font-weight: 700; }
+a 									{ text-decoration: none; font-weight: 700; color: #c6852a; }
 p 									{ line-height: 1.3em; }
 
 /* Grid
@@ -53,6 +53,9 @@ p 									{ line-height: 1.3em; }
 	margin-bottom: 10px!important;
 	border-bottom: 1px dotted #5e5a5a;
 	width:99.5%;
+}
+.border-right {
+	border-right: 1px dotted #5e5a5a;
 }
 
 .float-right {
@@ -938,7 +941,64 @@ a.slide0.activeSlide, a.slide1.activeSlide, a.slide2.activeSlide, a.slide3.activ
 	.map_image #map_link_4 { width: 82px; height: 88px; top: 179px; left: 424px; }
 	.map_image #map_link_5 { width: 91px; height: 98px; top: 306px; left: 467px; }
 	.map_image #map_link_6 { width: 161px; height: 182px; top: 414px; left: 360px; }
+
+.sp16-shop-now {
+	position: absolute;
+	left: 300px;
+	top: 350px	;
+}
 /* Spread 17 */
+.spread-seventeen {
+	background: url('../images/sp17-bg.jpg');
+}
+.spread-seventeen h1 {
+	text-indent: -9999px;
+}
+.spread-seventeen h2 {
+	text-align: center;
+	color: #FFF;
+	font-size: 18px;
+	text-shadow: 0px 2px 5px rgba(0, 0, 0, 0.8);
+	margin-top: 180px;
+}
+.spread-seventeen h3 {
+	font-family: 'Great Vibes', cursive; font-weight:400; color:#555; margin:20px 0;
+	font-size: 30px;
+	text-align: center;
+	margin-bottom: 0;
+}
+.spread-seventeen p {
+	margin: 0 20px 10px 20px;
+}
+.holiday-gifts {
+	margin: 0 20px;
+	background: #FFF;
+	background: rgba(255, 255, 255, 0.8);
+
+}
+.holiday-gifts ul {
+	margin: 0 20px;
+}
+.holiday-gifts li {
+	font-family: 'Asap', sans-serif; font-weight:400; font-size:13px; color:#555;
+	float: left;
+	width: 170px;
+	margin:0 10px 0 0;
+}
+.holiday-gifts-left {
+	float: left;
+}
+.holiday-gifts-right {
+	width: 316px;
+	float: left;
+	border-left: 1px solid #bab3b0;
+}
+.holiday-gifts-right img, .holiday-gifts-left img  {
+	margin-top: 10px;
+	display: block;
+    margin-left: auto;
+    margin-right: auto
+}
 /* Spread 18 */
 /* Spread 19 */
 /* Spread 20 */
