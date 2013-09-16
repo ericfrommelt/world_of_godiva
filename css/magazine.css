@@ -1,10 +1,3 @@
-/* GOOGLE Fonts
-font-family: 'Abel', sans-serif;
-font-family: 'Alex Brush', cursive;
-font-family: 'Radley', serif;
-*/
-
-
 .container             				{ position: relative; width: 940px; height:600px; margin: 0 auto; padding: 0; }
 
 ol.controls            				{ display:none; }
@@ -171,6 +164,9 @@ p { font-family: 'Asap', sans-serif; font-weight:400; font-size:13px; color:#555
 .carmen-info {
 	width: 300px;
 	padding-left:17px;
+}
+.carmen-info p {
+	margin-top: 0;
 }
 
 .carmen-wrapper {
