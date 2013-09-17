@@ -24,6 +24,7 @@ $(document).ready(function(){
            scrolling: 'no',
            'autoSize': false,      
            'width': 900
+           
        });
    });
 
